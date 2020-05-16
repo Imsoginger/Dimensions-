@@ -1,1 +1,8 @@
-{}
+{
+  "item.dimensions.dimension100": "Dimension100",
+  "block.dimensions.dimension100flower": "Dimension100flower",
+  "block.dimensions.yellowleaves": "Yellow Leaves",
+  "biome.dimensions.biome100": "Biome100",
+  "fluid.yellowwater": "YellowWater",
+  "item.dimensions.yellowwater_bucket": "YellowWater Bucket"
+}
