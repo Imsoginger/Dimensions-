@@ -6,25 +6,22 @@
       "value": "Blocks.OBSIDIAN"
     },
     "portalParticles": {
-      "value": "FLAME"
+      "value": "CLOUD"
     },
     "portalLuminance": 0.0,
     "portalSound": {
       "value": "block.portal.ambient"
     },
-    "igniterName": "Dimension100",
+    "igniterName": "Dimension200 Portal Igniter",
     "igniterTab": {
       "value": "TOOLS"
     },
     "texture": "dimension100portaligniter",
-    "portalTexture": "dimension100portalblock",
+    "portalTexture": "dimension200portalblock",
     "enablePortal": true,
     "biomesInDimension": [
       {
-        "value": "CUSTOM:Biome100"
-      },
-      {
-        "value": "CUSTOM:Biome100Desert"
+        "value": "CUSTOM:Biome200"
       }
     ],
     "worldGenType": "Normal world gen",
@@ -41,12 +38,12 @@
       "value": "Blocks.WATER"
     },
     "airColor": {
-      "value": -103,
+      "value": -6684673,
       "falpha": 0.0
     },
     "canRespawnHere": false,
-    "hasFog": true,
-    "hasWeather": false,
+    "hasFog": false,
+    "hasWeather": true,
     "isDark": false,
     "doesWaterVaporize": false,
     "sleepResult": "ALLOW",

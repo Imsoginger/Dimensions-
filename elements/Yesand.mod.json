@@ -2,16 +2,15 @@
   "_fv": 6,
   "_type": "block",
   "definition": {
-    "texture": "yellowleaves2",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "texture": "yesand",
+    "textureTop": "yesand",
+    "textureLeft": "yesand",
+    "textureFront": "yesand",
+    "textureRight": "yesand",
+    "textureBack": "yesand",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
-    "blockBase": "Leaves",
     "hasTransparency": false,
     "transparencyType": "SOLID",
     "mx": 0.0,
@@ -21,9 +20,9 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Blue Leaves",
+    "name": "Yesand",
     "specialInfo": [],
-    "hardness": 1.0,
+    "hardness": 0.0,
     "resistance": 10.0,
     "hasGravity": false,
     "creativeTab": {
@@ -32,32 +31,32 @@
     "destroyTool": "Not specified",
     "affectedBySilkTouch": true,
     "customDrop": {
-      "value": "Items.STICK"
+      "value": ""
     },
     "dropAmount": 1,
     "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
-    "plantsGrowOn": false,
+    "plantsGrowOn": true,
     "canProvidePower": false,
-    "lightOpacity": 1,
+    "lightOpacity": 255,
     "material": {
-      "value": "LEAVES"
+      "value": "SAND"
     },
     "tickRate": 10,
     "tickRandomly": false,
     "isReplaceable": false,
-    "colorOnMap": "DEFAULT",
+    "colorOnMap": "SAND",
     "creativePickItem": {
       "value": ""
     },
-    "flammability": 60,
-    "fireSpreadSpeed": 30,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "PLANT"
+      "value": "SAND"
     },
     "luminance": 0.0,
     "unbreakable": false,
@@ -79,11 +78,15 @@
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
     "spawnWorldTypes": [],
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Biome100"
+      }
+    ],
     "blocksToReplace": [],
     "frequencyPerChunks": 1,
     "frequencyOnChunk": 1,
-    "minGenerateHeight": 1,
+    "minGenerateHeight": 0,
     "maxGenerateHeight": 1
   }
 }

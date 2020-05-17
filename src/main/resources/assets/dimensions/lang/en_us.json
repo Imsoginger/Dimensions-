@@ -1,8 +1,16 @@
 {
-  "item.dimensions.dimension100": "Dimension100",
+  "entity.dimensions.yeeper": "Yeeper",
+  "block.dimensions.pinkleaves": "Blue Leaves",
   "block.dimensions.dimension100flower": "Dimension100flower",
-  "block.dimensions.yellowleaves": "Yellow Leaves",
+  "item.dimensions.yeeper": "Yeeper Spawn Egg",
+  "block.dimensions.yellowleaves": "Blue Leaves",
+  "item.dimensions.dimension100": "Dimension100",
+  "biome.dimensions.biome100desert": "Biome100Desert",
+  "item.dimensions.dimension200": "Dimension200 Portal Igniter",
+  "block.dimensions.yesand": "Yesand",
+  "block.dimensions.blueleaves": "Blue Leaves",
+  "block.dimensions.redleaves": "Blue Leaves",
+  "block.dimensions.orangeleaves": "Blue Leaves",
   "biome.dimensions.biome100": "Biome100",
-  "fluid.yellowwater": "YellowWater",
-  "item.dimensions.yellowwater_bucket": "YellowWater Bucket"
+  "biome.dimensions.biome200": "Biome200"
 }

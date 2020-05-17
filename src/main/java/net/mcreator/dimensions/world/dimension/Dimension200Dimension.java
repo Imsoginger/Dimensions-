@@ -42,7 +42,6 @@ import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.gen.ChunkGenerator;
 import net.minecraft.world.dimension.DimensionType;
 import net.minecraft.world.dimension.Dimension;
-import net.minecraft.world.chunk.Chunk;
 import net.minecraft.world.biome.provider.BiomeProvider;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.World;
@@ -75,7 +74,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.dimensions.item.Dimension100Item;
+import net.mcreator.dimensions.item.Dimension200Item;
 import net.mcreator.dimensions.DimensionsElements;
 
 import javax.annotation.Nullable;
@@ -97,48 +96,47 @@ import com.google.common.collect.ImmutableSet;
 import com.google.common.cache.LoadingCache;
 
 @DimensionsElements.ModElement.Tag
-public class Dimension100Dimension extends DimensionsElements.ModElement {
-	@ObjectHolder("dimensions:dimension100")
+public class Dimension200Dimension extends DimensionsElements.ModElement {
+	@ObjectHolder("dimensions:dimension200")
 	public static final ModDimension dimension = null;
-	@ObjectHolder("dimensions:dimension100_portal")
+	@ObjectHolder("dimensions:dimension200_portal")
 	public static final CustomPortalBlock portal = null;
 	public static DimensionType type = null;
 	private static Biome[] dimensionBiomes;
-	public Dimension100Dimension(DimensionsElements instance) {
-		super(instance, 1);
+	public Dimension200Dimension(DimensionsElements instance) {
+		super(instance, 8);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
 	@SubscribeEvent
 	public void registerDimension(RegistryEvent.Register<ModDimension> event) {
-		event.getRegistry().register(new CustomModDimension().setRegistryName("dimension100"));
+		event.getRegistry().register(new CustomModDimension().setRegistryName("dimension200"));
 	}
 
 	@SubscribeEvent
 	public void onRegisterDimensionsEvent(RegisterDimensionsEvent event) {
-		if (DimensionType.byName(new ResourceLocation("dimensions:dimension100")) == null) {
-			DimensionManager.registerDimension(new ResourceLocation("dimensions:dimension100"), dimension, null, true);
+		if (DimensionType.byName(new ResourceLocation("dimensions:dimension200")) == null) {
+			DimensionManager.registerDimension(new ResourceLocation("dimensions:dimension200"), dimension, null, true);
 		}
-		type = DimensionType.byName(new ResourceLocation("dimensions:dimension100"));
+		type = DimensionType.byName(new ResourceLocation("dimensions:dimension200"));
 	}
 
 	@Override
 	public void init(FMLCommonSetupEvent event) {
-		dimensionBiomes = new Biome[]{ForgeRegistries.BIOMES.getValue(new ResourceLocation("dimensions:biome100")),
-				ForgeRegistries.BIOMES.getValue(new ResourceLocation("dimensions:biome100desert")),};
+		dimensionBiomes = new Biome[]{ForgeRegistries.BIOMES.getValue(new ResourceLocation("dimensions:biome200")),};
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomPortalBlock());
-		elements.items.add(() -> new Dimension100Item().setRegistryName("dimension100"));
+		elements.items.add(() -> new Dimension200Item().setRegistryName("dimension200"));
 	}
 	public static class CustomPortalBlock extends NetherPortalBlock {
 		public CustomPortalBlock() {
 			super(Block.Properties.create(Material.PORTAL).doesNotBlockMovement().tickRandomly().hardnessAndResistance(-1.0F).sound(SoundType.GLASS)
 					.lightValue(0).noDrops());
-			setRegistryName("dimension100_portal");
+			setRegistryName("dimension200_portal");
 		}
 
 		@Override
@@ -243,7 +241,7 @@ public class Dimension100Dimension extends DimensionsElements.ModElement {
 					pz = pos.getZ() + 0.5 + 0.25 * j;
 					vz = random.nextFloat() * 2 * j;
 				}
-				world.addParticle(ParticleTypes.FLAME, px, py, pz, vx, vy, vz);
+				world.addParticle(ParticleTypes.CLOUD, px, py, pz, vx, vy, vz);
 			}
 			if (random.nextInt(110) == 0)
 				world.playSound(pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5,
@@ -692,27 +690,9 @@ public class Dimension100Dimension extends DimensionsElements.ModElement {
 		}
 
 		@Override
-		public void calculateInitialWeather() {
-		}
-
-		@Override
-		public void updateWeather(Runnable defaultWeather) {
-		}
-
-		@Override
-		public boolean canDoLightning(Chunk chunk) {
-			return false;
-		}
-
-		@Override
-		public boolean canDoRainSnowIce(Chunk chunk) {
-			return false;
-		}
-
-		@Override
 		@OnlyIn(Dist.CLIENT)
 		public Vec3d getFogColor(float cangle, float ticks) {
-			return new Vec3d(1, 1, 0.6);
+			return new Vec3d(0.6, 1, 1);
 		}
 
 		@Override
@@ -733,7 +713,7 @@ public class Dimension100Dimension extends DimensionsElements.ModElement {
 		@OnlyIn(Dist.CLIENT)
 		@Override
 		public boolean doesXZShowFog(int x, int z) {
-			return true;
+			return false;
 		}
 
 		@Override

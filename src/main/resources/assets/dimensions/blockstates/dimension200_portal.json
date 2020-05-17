@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "dimensions:block/dimension200_portal_ew"
+    },
+    "axis=x": {
+      "model": "dimensions:block/dimension200_portal_ns"
+    }
+  }
+}

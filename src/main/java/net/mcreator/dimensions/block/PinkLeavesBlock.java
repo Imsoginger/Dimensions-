@@ -24,11 +24,11 @@ import java.util.List;
 import java.util.Collections;
 
 @DimensionsElements.ModElement.Tag
-public class YellowLeavesBlock extends DimensionsElements.ModElement {
-	@ObjectHolder("dimensions:yellowleaves")
+public class PinkLeavesBlock extends DimensionsElements.ModElement {
+	@ObjectHolder("dimensions:pinkleaves")
 	public static final Block block = null;
-	public YellowLeavesBlock(DimensionsElements instance) {
-		super(instance, 13);
+	public PinkLeavesBlock(DimensionsElements instance) {
+		super(instance, 12);
 	}
 
 	@Override
@@ -40,7 +40,7 @@ public class YellowLeavesBlock extends DimensionsElements.ModElement {
 	public static class CustomBlock extends LeavesBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(1f, 10f).lightValue(0));
-			setRegistryName("yellowleaves");
+			setRegistryName("pinkleaves");
 		}
 
 		@Override

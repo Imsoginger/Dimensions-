@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dimensions:blocks/yesand",
+    "up": "dimensions:blocks/yesand",
+    "north": "dimensions:blocks/yesand",
+    "east": "dimensions:blocks/yesand",
+    "south": "dimensions:blocks/yesand",
+    "west": "dimensions:blocks/yesand",
+    "particle": "dimensions:blocks/yesand"
+  }
+}
