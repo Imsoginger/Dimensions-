@@ -3,6 +3,7 @@ package net.mcreator.dimensions.world.biome;
 
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.common.BiomeManager;
 import net.minecraftforge.common.BiomeDictionary;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
@@ -39,6 +40,8 @@ public class Biome200Biome extends DimensionsElements.ModElement {
 	public void init(FMLCommonSetupEvent event) {
 		BiomeDictionary.addTypes(biome, BiomeDictionary.Type.PLAINS, BiomeDictionary.Type.HILLS, BiomeDictionary.Type.BEACH,
 				BiomeDictionary.Type.RIVER, BiomeDictionary.Type.WATER, BiomeDictionary.Type.HOT);
+		BiomeManager.addSpawnBiome(biome);
+		BiomeManager.addBiome(BiomeManager.BiomeType.WARM, new BiomeManager.BiomeEntry(biome, 1024));
 	}
 	static class CustomBiome extends Biome {
 		public CustomBiome() {

@@ -1,7 +1,12 @@
 {
   "entity.dimensions.yeeper": "Yeeper",
+  "block.dimensions.redflower2": "Red Flower2",
   "block.dimensions.pinkleaves": "Blue Leaves",
+  "block.dimensions.orangeflower2": "Orange Flower2",
+  "block.dimensions.yellowflower": "Yellow Flower",
+  "block.dimensions.blueflower2": "Blue Flower2",
   "block.dimensions.dimension100flower": "Dimension100flower",
+  "block.dimensions.redflower": "Red Flower",
   "item.dimensions.yeeper": "Yeeper Spawn Egg",
   "block.dimensions.yellowleaves": "Blue Leaves",
   "item.dimensions.dimension100": "Dimension100",
@@ -9,8 +14,10 @@
   "item.dimensions.dimension200": "Dimension200 Portal Igniter",
   "block.dimensions.yesand": "Yesand",
   "block.dimensions.blueleaves": "Blue Leaves",
+  "block.dimensions.orangeflower": "Orange Flower",
   "block.dimensions.redleaves": "Blue Leaves",
   "block.dimensions.orangeleaves": "Blue Leaves",
+  "block.dimensions.blueflower": "Blue Flower",
   "biome.dimensions.biome100": "Biome100",
   "biome.dimensions.biome200": "Biome200"
 }

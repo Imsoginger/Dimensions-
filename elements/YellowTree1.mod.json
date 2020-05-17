@@ -11,7 +11,8 @@
     "spawnLocation": "Ground",
     "spawnHeightOffset": 0,
     "spawnWorldTypes": [
-      "CUSTOM:Dimension200"
+      "CUSTOM:Dimension200",
+      "Surface"
     ],
     "restrictionBlocks": [
       {

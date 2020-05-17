@@ -48,6 +48,8 @@ public class OrangeTree1Structure extends DimensionsElements.ModElement {
 				boolean dimensionCriteria = false;
 				if (dimensionType == Dimension200Dimension.type)
 					dimensionCriteria = true;
+				if (dimensionType == DimensionType.OVERWORLD)
+					dimensionCriteria = true;
 				if (!dimensionCriteria)
 					return false;
 				if ((random.nextInt(1000000) + 1) <= 500000) {

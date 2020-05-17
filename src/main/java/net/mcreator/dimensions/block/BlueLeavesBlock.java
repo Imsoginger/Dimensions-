@@ -39,7 +39,7 @@ public class BlueLeavesBlock extends DimensionsElements.ModElement {
 	}
 	public static class CustomBlock extends LeavesBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(1f, 10f).lightValue(0));
+			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(1f, 1f).lightValue(0));
 			setRegistryName("blueleaves");
 		}
 
