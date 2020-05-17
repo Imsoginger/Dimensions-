@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.BREAD"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TomatoSlice"
+      },
+      {
+        "value": "Items.COOKED_BEEF"
+      },
+      {
+        "value": "Blocks.KELP"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.BREAD"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:HamBurger"
+    },
+    "name": "hamburgerrecipe2",
+    "namespace": "mod"
+  }
+}

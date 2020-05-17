@@ -1,0 +1,19 @@
+{
+  "group": "dimensions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "dimensions:cucumber"
+    },
+    "1": {
+      "item": "dimensions:knife"
+    }
+  },
+  "result": {
+    "item": "dimensions:cucumberslice",
+    "count": 10
+  }
+}
