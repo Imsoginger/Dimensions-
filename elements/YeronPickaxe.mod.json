@@ -1,0 +1,23 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "yeron_pickaxe",
+    "customModelName": "Normal",
+    "name": "Yeron Pickaxe",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 3,
+    "efficiency": 8.0,
+    "attackSpeed": 1.0,
+    "enchantability": 22,
+    "damageVsEntity": 4.5,
+    "usageCount": 485,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

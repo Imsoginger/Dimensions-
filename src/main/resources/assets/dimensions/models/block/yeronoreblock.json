@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dimensions:blocks/yeron_ore_block",
+    "particle": "dimensions:blocks/yeron_ore_block"
+  }
+}

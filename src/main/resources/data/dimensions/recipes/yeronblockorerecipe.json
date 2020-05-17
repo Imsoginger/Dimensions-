@@ -1,0 +1,13 @@
+{
+  "group": "dimensions",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dimensions:yeronoreblock"
+    }
+  ],
+  "result": {
+    "item": "dimensions:yeroningot",
+    "count": 9
+  }
+}

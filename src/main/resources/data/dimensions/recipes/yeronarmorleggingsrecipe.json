@@ -1,0 +1,36 @@
+{
+  "group": "dimensions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "dimensions:yeroningot"
+    },
+    "1": {
+      "item": "dimensions:yeroningot"
+    },
+    "2": {
+      "item": "dimensions:yeroningot"
+    },
+    "3": {
+      "item": "dimensions:yeroningot"
+    },
+    "5": {
+      "item": "dimensions:yeroningot"
+    },
+    "6": {
+      "item": "dimensions:yeroningot"
+    },
+    "8": {
+      "item": "dimensions:yeroningot"
+    }
+  },
+  "result": {
+    "item": "dimensions:yeronarmorlegs",
+    "count": 1
+  }
+}

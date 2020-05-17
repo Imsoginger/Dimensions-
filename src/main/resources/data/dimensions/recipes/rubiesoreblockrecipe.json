@@ -1,0 +1,42 @@
+{
+  "group": "dimensions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "dimensions:rubiesingot"
+    },
+    "1": {
+      "item": "dimensions:rubiesingot"
+    },
+    "2": {
+      "item": "dimensions:rubiesingot"
+    },
+    "3": {
+      "item": "dimensions:rubiesingot"
+    },
+    "4": {
+      "item": "dimensions:rubiesingot"
+    },
+    "5": {
+      "item": "dimensions:rubiesingot"
+    },
+    "6": {
+      "item": "dimensions:rubiesingot"
+    },
+    "7": {
+      "item": "dimensions:rubiesingot"
+    },
+    "8": {
+      "item": "dimensions:rubiesingot"
+    }
+  },
+  "result": {
+    "item": "dimensions:rubiesoreblock",
+    "count": 1
+  }
+}

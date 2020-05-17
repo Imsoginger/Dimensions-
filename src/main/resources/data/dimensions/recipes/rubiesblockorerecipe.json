@@ -1,0 +1,13 @@
+{
+  "group": "dimensions",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dimensions:rubiesoreblock"
+    }
+  ],
+  "result": {
+    "item": "dimensions:rubiesingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "group": "dimensions",
+  "type": "minecraft:smelting",
+  "experience": 1.0499999999999998,
+  "ingredient": {
+    "item": "dimensions:yeronore"
+  },
+  "result": {
+    "item": "dimensions:yeroningot"
+  }
+}
