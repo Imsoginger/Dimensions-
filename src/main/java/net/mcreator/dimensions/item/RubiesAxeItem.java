@@ -1,20 +1,12 @@
 
 package net.mcreator.dimensions.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Item;
-import net.minecraft.item.IItemTier;
-import net.minecraft.item.AxeItem;
-
-import net.mcreator.dimensions.DimensionsElements;
-
 @DimensionsElements.ModElement.Tag
 public class RubiesAxeItem extends DimensionsElements.ModElement {
+
 	@ObjectHolder("dimensions:rubiesaxe")
 	public static final Item block = null;
+
 	public RubiesAxeItem(DimensionsElements instance) {
 		super(instance, 58);
 	}
@@ -46,6 +38,8 @@ public class RubiesAxeItem extends DimensionsElements.ModElement {
 				return Ingredient.EMPTY;
 			}
 		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+
 		}.setRegistryName("rubiesaxe"));
 	}
+
 }

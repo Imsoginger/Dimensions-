@@ -1,0 +1,21 @@
+{
+  "_fv": 6,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "tomato",
+    "customModelName": "Normal",
+    "name": "Tomato",
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 1,
+    "saturation": 0.3,
+    "eatingSpeed": 24,
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

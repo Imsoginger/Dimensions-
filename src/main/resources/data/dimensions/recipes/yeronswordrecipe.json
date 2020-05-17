@@ -8,17 +8,17 @@
   ],
   "key": {
     "0": {
-      "item": "dimensions:yeroningot"
+      "item": "dimensions:unknown_element"
     },
     "1": {
-      "item": "dimensions:yeroningot"
+      "item": "dimensions:unknown_element"
     },
     "2": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "dimensions:yeronsword",
+    "item": "dimensions:unknown_element",
     "count": 1
   }
 }

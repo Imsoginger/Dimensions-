@@ -1,20 +1,12 @@
 
 package net.mcreator.dimensions.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.PickaxeItem;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Item;
-import net.minecraft.item.IItemTier;
-
-import net.mcreator.dimensions.DimensionsElements;
-
 @DimensionsElements.ModElement.Tag
 public class YeronPickaxeItem extends DimensionsElements.ModElement {
+
 	@ObjectHolder("dimensions:yeronpickaxe")
 	public static final Item block = null;
+
 	public YeronPickaxeItem(DimensionsElements instance) {
 		super(instance, 42);
 	}
@@ -46,6 +38,8 @@ public class YeronPickaxeItem extends DimensionsElements.ModElement {
 				return Ingredient.EMPTY;
 			}
 		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+
 		}.setRegistryName("yeronpickaxe"));
 	}
+
 }

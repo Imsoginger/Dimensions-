@@ -8,7 +8,7 @@
   ],
   "key": {
     "0": {
-      "item": "dimensions:yeroningot"
+      "item": "dimensions:unknown_element"
     },
     "1": {
       "item": "minecraft:stick"
@@ -18,7 +18,7 @@
     }
   },
   "result": {
-    "item": "dimensions:yeronshovel",
+    "item": "dimensions:unknown_element",
     "count": 1
   }
 }

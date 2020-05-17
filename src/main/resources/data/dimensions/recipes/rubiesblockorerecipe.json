@@ -3,11 +3,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "dimensions:rubiesoreblock"
+      "item": "dimensions:unknown_element"
     }
   ],
   "result": {
-    "item": "dimensions:rubiesingot",
+    "item": "dimensions:unknown_element",
     "count": 9
   }
 }

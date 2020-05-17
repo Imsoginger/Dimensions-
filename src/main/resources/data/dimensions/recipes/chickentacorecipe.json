@@ -1,0 +1,26 @@
+{
+  "group": "dimensions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "item": "dimensions:unknown_element"
+    },
+    "1": {
+      "item": "minecraft:cooked_chicken"
+    },
+    "2": {
+      "item": "dimensions:unknown_element"
+    },
+    "4": {
+      "item": "minecraft:bread"
+    }
+  },
+  "result": {
+    "item": "dimensions:unknown_element",
+    "count": 1
+  }
+}
