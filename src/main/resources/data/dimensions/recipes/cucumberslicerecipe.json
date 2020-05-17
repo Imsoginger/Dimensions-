@@ -6,14 +6,14 @@
   ],
   "key": {
     "0": {
-      "item": "dimensions:cucumber"
+      "item": "dimensions:unknown_element"
     },
     "1": {
       "item": "dimensions:knife"
     }
   },
   "result": {
-    "item": "dimensions:cucumberslice",
+    "item": "dimensions:unknown_element",
     "count": 10
   }
 }

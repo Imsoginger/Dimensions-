@@ -10,11 +10,11 @@
       "item": "dimensions:tomato"
     },
     "1": {
-      "item": "dimensions:knife"
+      "item": "dimensions:unknown_element"
     }
   },
   "result": {
-    "item": "dimensions:tomatoslice",
+    "item": "dimensions:unknown_element",
     "count": 3
   }
 }

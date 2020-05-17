@@ -7,20 +7,20 @@
   ],
   "key": {
     "0": {
-      "item": "dimensions:tomatoslice"
+      "item": "dimensions:unknown_element"
     },
     "1": {
       "item": "minecraft:cooked_chicken"
     },
     "2": {
-      "item": "dimensions:cucumberslice"
+      "item": "dimensions:unknown_element"
     },
     "4": {
       "item": "minecraft:bread"
     }
   },
   "result": {
-    "item": "dimensions:chickentaco",
+    "item": "dimensions:unknown_element",
     "count": 1
   }
 }

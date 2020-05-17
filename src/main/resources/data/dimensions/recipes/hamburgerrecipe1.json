@@ -17,14 +17,14 @@
       "item": "minecraft:cooked_beef"
     },
     "5": {
-      "item": "dimensions:tomatoslice"
+      "item": "dimensions:unknown_element"
     },
     "7": {
       "item": "minecraft:bread"
     }
   },
   "result": {
-    "item": "dimensions:hamburger",
+    "item": "dimensions:unknown_element",
     "count": 1
   }
 }

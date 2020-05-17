@@ -707,7 +707,7 @@ public class Dimension200Dimension extends DimensionsElements.ModElement {
 
 		@Override
 		public boolean canRespawnHere() {
-			return false;
+			return true;
 		}
 
 		@OnlyIn(Dist.CLIENT)

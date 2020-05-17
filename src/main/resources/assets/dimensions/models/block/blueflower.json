@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "dimensions:blocks/blueflower",
+    "particle": "dimensions:blocks/blueflower"
+  }
+}

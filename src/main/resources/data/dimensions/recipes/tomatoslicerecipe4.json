@@ -7,14 +7,14 @@
   ],
   "key": {
     "0": {
-      "item": "dimensions:knife"
+      "item": "dimensions:unknown_element"
     },
     "1": {
       "item": "dimensions:tomato"
     }
   },
   "result": {
-    "item": "dimensions:tomatoslice",
+    "item": "dimensions:unknown_element",
     "count": 3
   }
 }
